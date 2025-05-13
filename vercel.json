@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "tourtle.com"
+        }
+      ],
+      "destination": "https://www.tourtle.com/$1",
+      "permanent": true
+    }
+  ]
+}
